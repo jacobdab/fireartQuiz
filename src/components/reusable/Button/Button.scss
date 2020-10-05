@@ -1,0 +1,18 @@
+.button {
+  border-radius: 5px;
+  padding: 10px 20px;
+
+  &__fill {
+    color: #fff;
+    background: #1e90ff;
+  }
+
+  &__nofill {
+    color: #1e90ff;
+    background: #fff;
+    border: #1e90ff;
+  }
+}
+.my-5 {
+  margin: 5px 0;
+}

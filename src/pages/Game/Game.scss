@@ -1,0 +1,36 @@
+.Game {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+
+  &__header {
+    margin: -100px 30px 0;
+    text-align: center;
+  }
+
+  &__form {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 11px 10px rgba(204, 204, 204, 0.57);
+    margin: 0 20px;
+
+    &__content {
+      padding: 50px;
+      text-align: center;
+    }
+
+    &__buttons {
+      border-top: 1px solid #ccc;
+      display: inline-flex;
+      width: 100%;
+      justify-content: space-evenly;
+    }
+  }
+
+  @media (min-width: 768px) {
+    &__form {
+      max-width: 500px;
+    }
+  }
+}

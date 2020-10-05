@@ -1,0 +1,37 @@
+.input {
+  display: block;
+  padding: 10px 20px 10px 5px;
+  margin: 20px 0;
+  font-weight: bolder;
+  color: black;
+  box-sizing: content-box;
+  max-width: 300px;
+  width: 80%;
+
+  &::placeholder {
+    color: black;
+  }
+
+
+  &__redNoFill {
+    border: 2px solid #ff0000;
+  }
+
+  &__blueNoFill {
+    width: unset;
+    color: #1e90ff;
+    background: #fff;
+    border: 1px solid #1e90ff;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+
+  &__blueFill {
+    width: unset;
+    color: #fff;
+    background: #1e90ff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+  }
+}
